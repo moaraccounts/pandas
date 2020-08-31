@@ -67,8 +67,8 @@ For example:
 formatters.
 
 The convention of using f-strings on a string that is concatenated over
-serveral lines, is to prefix only the lines containing the value needs
-to be interpeted.
+several lines, is to prefix only the lines containing the value needs
+to be interpreted.
 
 For example:
 
@@ -102,7 +102,7 @@ For example:
 ^^^^^^^^^^^^^^^^^^
 
 Putting the white space only at the end of the previous line, so there
-is no whitespace at the beggining of the concatenated string.
+is no whitespace at the beginning of the concatenated string.
 
 For example:
 
@@ -131,7 +131,7 @@ For example:
 
 *pandas* uses ‘repr()’ instead of ‘%r’ and ‘!r’.
 
-The use of ‘repr()’ will only happend when the value is not an obvious
+The use of ‘repr()’ will only happen when the value is not an obvious
 string.
 
 For example:
@@ -141,7 +141,7 @@ For example:
 .. code-block:: python
 
    value = str
-   f"Unknown recived value, got: {repr(value)}"
+   f"Unknown received value, got: {repr(value)}"
 
 **Bad:**
 
